@@ -1,0 +1,25 @@
+.section_nav {
+  display: flex;
+	align-items: center;
+  justify-content: center;
+  font-family: $sans-serif;
+	// position: absolute;
+  border-bottom: 1px solid $light-gray;
+}
+.section_nav a {
+  color: black;
+}
+.section_nav ul {
+  padding: 10px;
+}
+.section_nav li {
+  display: inline;
+  justify-content: center;
+  padding: 10px;
+}
+.section_nav a:hover {
+  background: $light-gray;
+}
+.section_nav li:last-child {
+  text-decoration: underline;
+}
